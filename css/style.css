@@ -119,6 +119,7 @@ main {
   }
 
   .hero {
+    max-width: 500px;
     margin: .1rem auto 0 auto;
   }
 
@@ -147,10 +148,6 @@ main {
 }
 
 @media (min-width: 1150px) {
-  .hero {
-    max-width: 500px;
-  }
-
   .cards-row > article, .cards-row > div {
     max-width: 33%;
   }
